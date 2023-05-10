@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Aula 40</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <section class="container">
+
+        <table class="table">
+            <tr>
+                <th class="col1"><h1>IMC Table</h1></th>
+            </tr>
+            <tr>
+                <th class="col1">IMC</th>
+                <th class="col2">Result</th>
+            </tr>
+            <tr>
+                <td class="col1">Less than 18,5</td>
+                <td class="col2">Below weight</td>
+            </tr>
+            <tr>
+                <td class="col1">Between 18,5 and 24,9</td>
+                <td class="col2">Normal weight</td>
+            </tr>
+            <tr>
+                <td class="col1">Between 25 and 29,9</td>
+                <td class="col2">Overweight</td>
+            </tr>
+            <tr>
+                <td class="col1">Between 30 and 34,9</td>
+                <td class="col2">1º Degree Obesity</td>
+            </tr>
+            <tr>
+                <td class="col1">Between 35 and 39,9</td>
+                <td class="col2">2º Degree Obesity</td>
+            </tr>
+            <tr>
+                <td class="col1">More than 40</td>
+                <td class="col2">3º Degree Obesity</td>
+            </tr>
+        </table>
+        <br />
+
+        <h2>Calculate your IMC</h2>
+        <form class="form" action="" method="get">
+            <label for="input-teste-1">Weight: </label>
+            <input type="" id="weight">
+
+            <label for="input-teste-2">Height </label>
+            <input type="" id="height"><br />
+
+            <button onclick="">Enviar</button>
+        </form>
+
+        <div id="result"></div>
+
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
