@@ -53,6 +53,17 @@ form input:focus {
     outline: 1px solid var(--primary-color);
 }
 
+#result {
+    border: none;
+    margin-top: 10px;
+    background: #db2c2c;/* #11ab56 */ /* #db2c2c */
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 0px;
+    cursor: pointer;
+}
+
 form button {
     border: none;
     background: var(--primary-color);
