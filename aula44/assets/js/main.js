@@ -7,8 +7,7 @@ function eventForm(event) {
   const height = form.querySelector("#height");
   const result = document.querySelector("#result");
 
-  let imc =
-    Number(weight.value) / (Number(height.value) * Number(height.value));
+  let imc = Number(weight.value) / (Number(height.value) * Number(height.value));
   imc = imc.toFixed(1);
   console.log(imc);
 
